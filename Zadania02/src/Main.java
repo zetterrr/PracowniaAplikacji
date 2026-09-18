@@ -70,4 +70,6 @@ void main(String[] args) {
 //        default -> "Nieznany miesiac";
 //    };
 //        System.out.println(type);
+//zad6
+
 }
