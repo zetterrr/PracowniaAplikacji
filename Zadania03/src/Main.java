@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 void main() {
 //zad1
 Scanner scanner = new Scanner(System.in);
@@ -81,4 +83,72 @@ Scanner scanner = new Scanner(System.in);
 //        }
 //    } while (liczba != random);
 //zad6
-}
+//    System.out.print("x = ");
+//     int x = scanner.nextInt();
+//    System.out.print("y = ");
+//     int y = scanner.nextInt();
+//    System.out.print("a = ");
+//     int a = scanner.nextInt();
+//    System.out.print("b = ");
+//     int b = scanner.nextInt();
+//    System.out.print("znak = ");
+//     char znak = scanner.next().charAt(0);
+//     for (int i = 0; i < y; i++)
+//        System.out.println();
+//     for (int i = 0; i < a; i++)
+//    {
+//         for (int j = 0; j < x; j++)
+//            System.out.print(" ");
+//         for (int j = 0; j < b; j++)
+//            System.out.print(znak);
+//        System.out.println();
+//    }
+//zad7
+//    System.out.print("Podaj liczbe calkowita: ");
+//    int n = scanner.nextInt();
+//    for (int i = 1; i <= n; i++)
+//    {
+//        for (int j = 1; j <= n - i; j++)
+//            System.out.print(" ");
+//        for (int j = 1; j <= 2 * i - 1; j++)
+//            System.out.print("*");
+//        System.out.println();
+//    }
+//zad8
+//    System.out.println("Podaj liczbe do silnii: ");
+//    int n = scanner.nextInt();
+//    int silnia = 1;
+//    for (int i = 1; i <= n; i++)
+//        silnia = silnia * i;
+//    System.out.println("Silnia danej liczby to: " + silnia);
+//zad9
+//    System.out.println("Podaj dowolne slowo: ");
+//    String slowo = scanner.next();
+//    boolean palindrom = true;
+//    for (int i = 0; i < slowo.length() / 2; i++)
+//    {
+//        if (slowo.charAt(i) != slowo.charAt(slowo.length() - 1 - i))
+//        {
+//            palindrom = false;
+//            break;
+//        }
+//    }
+//    if (palindrom)
+//        System.out.println("Palindrom");
+//    else
+//        System.out.println("Nie jest palindromem");
+//zad10
+//    petla:
+//    for (int i = 1; i <= 10; i++)
+//    {
+//        if (i % 2 != 0)
+//            continue;
+//        for (int j = 1; j <= 10; j++)
+//        {
+//            if (j > i)
+//                continue petla;
+//            System.out.print(j + " ");
+//        }
+//        System.out.println();
+//    }
+//}
